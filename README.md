@@ -43,7 +43,7 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-file:///home/kavi/Pictures/Screenshots/2
+<img width="223" height="163" alt="Screenshot 2026-04-26 132315" src="https://github.com/user-attachments/assets/62a342ef-0b38-4a85-9362-17decb258d13" />
 
 cat < file2
 ## OUTPUT
