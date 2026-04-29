@@ -399,6 +399,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="470" height="106" alt="image" src="https://github.com/user-attachments/assets/b7d64ed8-ec82-47f1-9c2d-31298073b5ce" />
 
  
 cat << stop > herecheck.txt
@@ -411,6 +412,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="429" height="77" alt="image" src="https://github.com/user-attachments/assets/da812c4a-fecb-47d5-942c-8a8d1e69408a" />
 
 
 cat < scriptest.sh 
@@ -449,13 +451,17 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="546" height="270" alt="image" src="https://github.com/user-attachments/assets/17ad3903-f340-4c3b-992c-18e5117e5d6b" />
 
  
 ls file1
 ## OUTPUT
+<img width="316" height="54" alt="image" src="https://github.com/user-attachments/assets/232a900b-9536-482b-ac5b-75002b9aafed" />
 
 echo $?
 ## OUTPUT 
+<img width="165" height="46" alt="image" src="https://github.com/user-attachments/assets/4753b748-586d-4719-abff-fbbe7697a1ee" />
+
 ./one
 bash: ./one: Permission denied
  
@@ -505,6 +511,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="329" height="140" alt="image" src="https://github.com/user-attachments/assets/80155112-61ca-4fcf-ad20-ca0c5e6e353a" />
 
 
 # check file ownership
@@ -579,6 +586,8 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="532" height="105" alt="image" src="https://github.com/user-attachments/assets/e5df23ac-e64e-4d46-94a9-99ffd58d5737" />
+
 
 
 # using numeric test comparisons
@@ -672,7 +681,8 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-<img width="290" height="116" alt="image" src="https://github.com/user-attachments/assets/7cd3e46b-734c-428c-89ec-3df66a5e51e9" />
+<img width="532" height="105" alt="image" src="https://github.com/user-attachments/assets/e5df23ac-e64e-4d46-94a9-99ffd58d5737" />
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
