@@ -49,7 +49,6 @@ cat < file2
 ## OUTPUT
 <img width="249" height="105" alt="WhatsApp Image 2026-04-29 at 2 19 03 PM" src="https://github.com/user-attachments/assets/87dbd2f8-e30d-4bb8-9161-4c088b76319c" />
 
-
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
@@ -63,7 +62,6 @@ comm file1 file2
 diff file1 file2
 ## OUTPUT
 <img width="297" height="198" alt="image" src="https://github.com/user-attachments/assets/6c94c824-24af-4176-8601-1becc421320d" />
-
 
 #Filters
 
@@ -769,7 +767,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ <img width="318" height="77" alt="image" src="https://github.com/user-attachments/assets/f6753082-a798-4f2b-ac19-87ff7ecbd03f" />
+
 cat > whiletest
 ```bash
 #!/bin/bash
