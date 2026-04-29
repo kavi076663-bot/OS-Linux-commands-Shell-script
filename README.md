@@ -1042,7 +1042,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ <img width="286" height="83" alt="image" src="https://github.com/user-attachments/assets/1757bf65-17d0-44ce-9a70-20a42cd277f5" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1056,6 +1057,8 @@ set +x
 ## OUTPUT
  ./argshift.sh 1 2 3
  
+<img width="309" height="253" alt="image" src="https://github.com/user-attachments/assets/4266f82a-b8ff-4028-b414-fe93baffe6fa" />
+
  
 cat > nc.awk
 ```bash
@@ -1086,7 +1089,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="366" height="236" alt="image" src="https://github.com/user-attachments/assets/a0a6224d-0476-4d2d-82b2-10d6c022da9a" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1113,6 +1117,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="288" height="161" alt="image" src="https://github.com/user-attachments/assets/e5ce7371-a218-40e2-b313-237a6bd1eb68" />
 
 
 # RESULT:
