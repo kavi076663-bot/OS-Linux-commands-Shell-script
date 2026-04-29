@@ -580,7 +580,6 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-<img width="290" height="116" alt="image" src="https://github.com/user-attachments/assets/7cd3e46b-734c-428c-89ec-3df66a5e51e9" />
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -719,7 +718,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-<img width="284" height="122" alt="image" src="https://github.com/user-attachments/assets/680b85a7-1b0c-482a-bc0c-cc3b53f4255c" />
+<img width="445" height="121" alt="image" src="https://github.com/user-attachments/assets/164d2353-9bb1-46a5-bbb7-3d358ee9daae" />
+
 
 # using the case command
 cat >casecheck.sh 
