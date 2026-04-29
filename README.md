@@ -810,7 +810,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ <img width="348" height="156" alt="image" src="https://github.com/user-attachments/assets/b1556562-d17b-4bbd-a335-d4e0da3376d6" />
+
  
 cat forin2.sh 
 ```bash
@@ -823,7 +824,8 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+ <img width="363" height="152" alt="image" src="https://github.com/user-attachments/assets/32741e24-b0ac-46e6-b86d-da3726a017de" />
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -836,7 +838,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ <img width="363" height="152" alt="image" src="https://github.com/user-attachments/assets/be981bb8-8e14-410b-ac05-759b71ca6549" />
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -847,7 +850,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ <img width="243" height="156" alt="image" src="https://github.com/user-attachments/assets/5c79f832-309f-4b9c-85f8-366fbef09e6d" />
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -858,8 +862,9 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
-
 ## OUTPUT
+<img width="348" height="156" alt="image" src="https://github.com/user-attachments/assets/b1556562-d17b-4bbd-a335-d4e0da3376d6" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -895,6 +900,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="270" height="138" alt="image" src="https://github.com/user-attachments/assets/9f5a2ad4-5ffb-4970-8ecc-f0e8d30209aa" />
 
 cat forctype1.sh 
 ```bash
@@ -908,6 +914,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="280" height="145" alt="image" src="https://github.com/user-attachments/assets/99cbef3c-59fc-4be6-96a3-2b3f13b9c9bd" />
 
 cat fornested1.sh 
 ```bash
@@ -927,7 +934,8 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
- 
+ <img width="350" height="247" alt="image" src="https://github.com/user-attachments/assets/08b1342b-a1f0-43e4-8e23-6d02e8fe0748" />
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
