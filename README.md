@@ -974,6 +974,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="367" height="92" alt="image" src="https://github.com/user-attachments/assets/c2d8ef83-8ac4-416e-8c7a-f68956cf6b1e" />
 
 
  cat exread1.sh
@@ -987,10 +988,9 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
-
-
 $ ./exread1.sh 
- 
+<img width="367" height="92" alt="image" src="https://github.com/user-attachments/assets/5cc43b92-6d5e-4a66-96c9-32b093209b44" />
+
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -1008,9 +1008,12 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+<img width="264" height="48" alt="image" src="https://github.com/user-attachments/assets/64e1c4d0-3bff-4d9b-9c26-e0f17380390a" />
+
 
  
  ./funcex.sh 1 2
+<img width="251" height="55" alt="image" src="https://github.com/user-attachments/assets/e189baba-75b7-495d-95f7-badfb2777e6b" />
 
  
 cat argshift.sh
@@ -1025,7 +1028,9 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+<img width="255" height="113" alt="image" src="https://github.com/user-attachments/assets/ccac2000-3e27-41d3-bf85-b9f76565caf6" />
+
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
