@@ -253,78 +253,94 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+<img width="322" height="47" alt="WhatsApp Image 2026-04-29 at 10 43 48 PM" src="https://github.com/user-attachments/assets/57df36e2-fbe8-4397-ad27-47d946125ce3" />
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+<img width="309" height="45" alt="WhatsApp Image 2026-04-29 at 10 47 36 PM" src="https://github.com/user-attachments/assets/03428508-3c94-4cd8-b1a4-3040fc5e8cee" />
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="606" height="154" alt="WhatsApp Image 2026-04-29 at 10 48 07 PM" src="https://github.com/user-attachments/assets/786e9f23-b348-4754-96db-43f51a473d55" />
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="606" height="152" alt="WhatsApp Image 2026-04-29 at 10 48 34 PM" src="https://github.com/user-attachments/assets/e284358a-5f7d-407b-85f1-364bbd25b0d7" />
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+<img width="606" height="140" alt="WhatsApp Image 2026-04-29 at 10 49 19 PM" src="https://github.com/user-attachments/assets/49e818a0-f50b-42c7-a494-b817171194d3" />
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+<img width="702" height="111" alt="WhatsApp Image 2026-04-29 at 10 50 34 PM" src="https://github.com/user-attachments/assets/7f8197ad-9ebe-4e11-8621-9892d529991a" />
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+<img width="540" height="79" alt="WhatsApp Image 2026-04-29 at 10 51 02 PM" src="https://github.com/user-attachments/assets/54eec7e6-72be-4df0-a037-6af750f7223c" />
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+<img width="420" height="62" alt="WhatsApp Image 2026-04-29 at 10 53 59 PM" src="https://github.com/user-attachments/assets/12edf874-0365-4fff-ae3c-48ada842bc6f" />
 
 
 seq 10 
 ## OUTPUT
 
+<img width="297" height="130" alt="image" src="https://github.com/user-attachments/assets/eb3ef272-8cf2-460d-bc97-89e8559e34de" />
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+<img width="491" height="72" alt="WhatsApp Image 2026-04-29 at 10 55 19 PM" src="https://github.com/user-attachments/assets/0af3a0b3-0a48-4ca9-81d5-e6705ab64e8d" />
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+<img width="533" height="78" alt="WhatsApp Image 2026-04-29 at 10 55 55 PM" src="https://github.com/user-attachments/assets/231e4540-5430-4b07-bf0d-93507cbf8676" />
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+<img width="528" height="91" alt="WhatsApp Image 2026-04-29 at 10 57 05 PM" src="https://github.com/user-attachments/assets/535aa74c-f268-461e-ac80-bd99cdd49422" />
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="522" height="77" alt="WhatsApp Image 2026-04-29 at 10 57 34 PM" src="https://github.com/user-attachments/assets/f363a50b-e966-4667-89cc-56907efeb21e" />
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="559" height="82" alt="WhatsApp Image 2026-04-29 at 10 57 58 PM" src="https://github.com/user-attachments/assets/bc74b4f1-080c-4fee-adf0-1fd4180d5c81" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+<img width="538" height="79" alt="WhatsApp Image 2026-04-29 at 10 58 27 PM" src="https://github.com/user-attachments/assets/e737c6a3-7394-4014-9d25-4d130de397bf" />
 
 
 sed -n '2,4{s/$/*/;p}' file23
+<img width="522" height="77" alt="WhatsApp Image 2026-04-29 at 10 58 59 PM" src="https://github.com/user-attachments/assets/a3cbbc04-ef1c-443c-93d7-b38ea00d14bd" />
 
 
 #Sorting File content
@@ -338,6 +354,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="666" height="109" alt="WhatsApp Image 2026-04-29 at 11 00 22 PM" src="https://github.com/user-attachments/assets/e77b14f6-2dc4-4a9e-afca-98b11ee9c39d" />
 
 
 cat > file22
@@ -352,12 +369,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+<img width="529" height="78" alt="WhatsApp Image 2026-04-29 at 11 01 02 PM" src="https://github.com/user-attachments/assets/e7363187-5d27-4bd1-8b14-06b90885e582" />
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="374" height="263" alt="image" src="https://github.com/user-attachments/assets/748f8fef-fa5a-4d28-ae5e-0e0d1a8259c1" />
 
 cat < urllist.txt
 ```
@@ -375,17 +394,19 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="552" height="81" alt="image" src="https://github.com/user-attachments/assets/145a42d5-483b-44e9-9333-d09e71de7adc" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="552" height="81" alt="WhatsApp Image 2026-04-29 at 11 03 40 PM" src="https://github.com/user-attachments/assets/05c3511a-8b50-4757-a86d-ec85fa05fd6b" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+<img width="552" height="550" alt="WhatsApp Image 2026-04-29 at 11 04 20 PM" src="https://github.com/user-attachments/assets/64f89caa-c60a-4430-a7fb-aec29b6238c3" />
 
 mkdir backupdir
  
@@ -395,10 +416,14 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="860" height="541" alt="WhatsApp Image 2026-04-29 at 11 05 15 PM" src="https://github.com/user-attachments/assets/70c601b4-b298-454d-a5b8-a2d11aba1f88" />
+<img width="1054" height="668" alt="WhatsApp Image 2026-04-29 at 11 07 42 PM" src="https://github.com/user-attachments/assets/58b1649e-5ba6-4fa4-a636-25fc2c09191e" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="1134" height="673" alt="WhatsApp Image 2026-04-29 at 11 09 04 PM" src="https://github.com/user-attachments/assets/c38b3b4a-31a2-4eec-9046-87d7a4a92ce3" />
+<img width="1144" height="637" alt="WhatsApp Image 2026-04-29 at 11 09 23 PM" src="https://github.com/user-attachments/assets/7dc38c7c-16d4-4256-bc9a-3581a05f261b" />
 
 gzip backup.tar
 
