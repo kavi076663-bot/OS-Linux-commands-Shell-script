@@ -715,6 +715,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="284" height="122" alt="image" src="https://github.com/user-attachments/assets/680b85a7-1b0c-482a-bc0c-cc3b53f4255c" />
 
 # using the case command
 cat >casecheck.sh 
