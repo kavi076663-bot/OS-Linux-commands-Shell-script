@@ -47,18 +47,22 @@ cat < file1
 
 cat < file2
 ## OUTPUT
+<img width="249" height="105" alt="WhatsApp Image 2026-04-29 at 2 19 03 PM" src="https://github.com/user-attachments/assets/87dbd2f8-e30d-4bb8-9161-4c088b76319c" />
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="306" height="44" alt="image" src="https://github.com/user-attachments/assets/3fc9e361-0375-4614-8c65-ba5e3038011d" />
+
 comm file1 file2
  ## OUTPUT
+<img width="298" height="151" alt="WhatsApp Image 2026-04-29 at 2 21 27 PM" src="https://github.com/user-attachments/assets/23b8e764-5172-42f1-90b2-840f1289774b" />
 
  
 diff file1 file2
 ## OUTPUT
+<img width="297" height="198" alt="image" src="https://github.com/user-attachments/assets/6c94c824-24af-4176-8601-1becc421320d" />
 
 
 #Filters
@@ -83,16 +87,19 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="247" height="64" alt="WhatsApp Image 2026-04-29 at 2 22 46 PM" src="https://github.com/user-attachments/assets/a7d59f6b-c41f-41d9-b210-172b89927534" />
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+<img width="308" height="76" alt="WhatsApp Image 2026-04-29 at 2 24 38 PM" src="https://github.com/user-attachments/assets/20b3826f-0e75-4c27-8d00-5e1cb93b960c" />
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="308" height="77" alt="WhatsApp Image 2026-04-29 at 2 25 15 PM" src="https://github.com/user-attachments/assets/a9bc056c-dd8e-400b-bb90-4db42e471f72" />
 
 
 cat < newfile 
@@ -108,22 +115,26 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+<img width="217" height="48" alt="WhatsApp Image 2026-04-29 at 2 27 46 PM" src="https://github.com/user-attachments/assets/dcdab27c-0ecd-41b8-a899-2bf3883604a7" />
 
 
 grep hello newfile 
 ## OUTPUT
 
+<img width="208" height="44" alt="WhatsApp Image 2026-04-29 at 2 28 45 PM" src="https://github.com/user-attachments/assets/c7845cf5-0e7c-4fb9-85cd-4be6607fed5b" />
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+<img width="416" height="92" alt="WhatsApp Image 2026-04-29 at 2 29 26 PM" src="https://github.com/user-attachments/assets/ba126368-04ed-454c-9e57-282d01ab470a" />
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+<img width="416" height="61" alt="WhatsApp Image 2026-04-29 at 2 30 09 PM" src="https://github.com/user-attachments/assets/58394a8d-78f1-46bf-874b-44f4d461076f" />
 
 
 
