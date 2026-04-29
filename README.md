@@ -151,9 +151,8 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="416" height="79" alt="WhatsApp Image 2026-04-29 at 6 26 44 PM" src="https://github.com/user-attachments/assets/a1fb5514-e2fe-4402-aac6-9827570c4189" />
 
-
-cat < newfile 
 ```
 Hello world
 hello world
@@ -174,59 +173,69 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+<img width="380" height="60" alt="image" src="https://github.com/user-attachments/assets/3bf795be-5c12-4f6f-a6f2-da7c56ccad6a" />
+
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+<img width="401" height="61" alt="WhatsApp Image 2026-04-29 at 6 29 53 PM" src="https://github.com/user-attachments/assets/aace6e39-b85a-4271-917e-e7f27e41b9e9" />
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
 
+<img width="320" height="60" alt="WhatsApp Image 2026-04-29 at 6 31 08 PM" src="https://github.com/user-attachments/assets/3421f2c4-b67f-45dd-96a1-1b7092fe6f81" />
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+<img width="323" height="47" alt="WhatsApp Image 2026-04-29 at 6 32 27 PM" src="https://github.com/user-attachments/assets/4cbfed96-73e3-47bd-846b-40c7540f15f5" />
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
-
+<img width="390" height="60" alt="WhatsApp Image 2026-04-29 at 6 33 45 PM" src="https://github.com/user-attachments/assets/98f22f7a-aa12-4d7e-b489-6b1d8aa075bc" />
 
 egrep '(World$)' newfile 
 ## OUTPUT
+<img width="328" height="48" alt="WhatsApp Image 2026-04-29 at 6 34 30 PM" src="https://github.com/user-attachments/assets/f98e1767-9660-4de1-9da3-99cf781eb9ee" />
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
-
+<img width="536" height="79" alt="WhatsApp Image 2026-04-29 at 6 35 35 PM" src="https://github.com/user-attachments/assets/dfe7f610-8d12-4286-ac9b-8847c54e6b00" />
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+<img width="320" height="47" alt="WhatsApp Image 2026-04-29 at 6 36 37 PM" src="https://github.com/user-attachments/assets/2be66ebc-d3e1-44f3-9518-b80e606549e4" />
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+<img width="333" height="49" alt="image" src="https://github.com/user-attachments/assets/06918a3d-f5dd-4481-8911-e33e617d4670" />
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
+<img width="326" height="48" alt="WhatsApp Image 2026-04-29 at 6 38 11 PM" src="https://github.com/user-attachments/assets/79b98b4f-fab7-457e-9b9e-f4c95cfb35ae" />
 
 egrep l{2} newfile
 ## OUTPUT
 
+<img width="414" height="61" alt="WhatsApp Image 2026-04-29 at 6 39 37 PM" src="https://github.com/user-attachments/assets/fa377de1-b902-4b9a-a40d-b22f09a5d8c2" />
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="488" height="77" alt="WhatsApp Image 2026-04-29 at 6 40 16 PM" src="https://github.com/user-attachments/assets/d5e66425-9dbe-4256-9f06-b6176df656a8" />
 
 
 cat > file23
