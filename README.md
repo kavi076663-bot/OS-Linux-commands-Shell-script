@@ -810,7 +810,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+ <img width="335" height="215" alt="image" src="https://github.com/user-attachments/assets/80d425af-dd44-47ce-85b4-cfc7a04ac109" />
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -823,7 +824,8 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ <img width="307" height="125" alt="image" src="https://github.com/user-attachments/assets/3511b836-7b63-4533-ae5d-b636a230899a" />
+
  
 cat forin1.sh 
 ```bash
