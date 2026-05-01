@@ -139,12 +139,16 @@ cat newfile | grep -i "hello"
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+<img width="452" height="41" alt="image" src="https://github.com/user-attachments/assets/0fffd54b-3792-40ed-8f2e-d1f8e563c6d6" />
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-
+<img width="1136" height="699" alt="image" src="https://github.com/user-attachments/assets/e7c3599d-eac4-408a-9c73-5dffd3462bd7" />
+<img width="1067" height="701" alt="image" src="https://github.com/user-attachments/assets/26183acc-9220-46c2-bfe0-06af6c036b98" />
+<img width="1152" height="701" alt="image" src="https://github.com/user-attachments/assets/1a2423ad-1218-4687-887c-67b543c7a104" />
+<img width="1142" height="622" alt="image" src="https://github.com/user-attachments/assets/add4aaa1-978b-4075-9836-411cf122efc5" />
 
 
 grep -w -n world newfile   
@@ -429,9 +433,11 @@ gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="581" height="53" alt="image" src="https://github.com/user-attachments/assets/1707b9b9-72ee-465e-966a-b4d3ae5f9de0" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="742" height="60" alt="image" src="https://github.com/user-attachments/assets/d947d292-633d-4e0e-b1c3-665efed94ec1" />
 
  
 # Shell Script
@@ -510,12 +516,13 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+<img width="373" height="93" alt="image" src="https://github.com/user-attachments/assets/ed3eb68d-4471-4e87-820c-c1af96d93d86" />
  
 abcd
  
 echo $?
  ## OUTPUT
-
+<img width="165" height="46" alt="image" src="https://github.com/user-attachments/assets/4753b748-586d-4719-abff-fbbe7697a1ee" />
 
 
  
